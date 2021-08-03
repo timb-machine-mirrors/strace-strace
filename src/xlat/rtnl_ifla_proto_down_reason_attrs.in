@@ -1,0 +1,7 @@
+#enum
+#include <sys/socket.h>
+#include <linux/rtnetlink.h>
+#value_indexed
+IFLA_PROTO_DOWN_REASON_UNSPEC	0
+IFLA_PROTO_DOWN_REASON_MASK	1
+IFLA_PROTO_DOWN_REASON_VALUE	2
